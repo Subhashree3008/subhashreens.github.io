@@ -4,158 +4,140 @@
   <meta charset="UTF-8">
   <title>Subhashree | Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 <!-- NAVBAR -->
 <header class="navbar">
-  <h2 class="logo">SN</h2>
+  <div class="logo">SN <span>Subhashree.</span></div>
+
+  <nav>
+    <a href="#">About</a>
+    <a href="#">Experience</a>
+    <a href="#">Projects</a>
+    <a href="#">Skills</a>
+    <a href="#">Contact</a>
+  </nav>
+
   <div class="nav-icons">
-    <a href="https://www.linkedin.com/in/subhashree-ns/" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png">
-    </a>
-    <a href="https://github.com/Subhashree3008" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
-    </a>
-    <a href="https://leetcode.com/u/Subhashree_NS/" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png">
-    </a>
-    
+    <a href="https://www.linkedin.com/in/subhashree-ns/" target="_blank">in</a>
+    <a href="https://github.com/Subhashree3008" target="_blank">gh</a>
   </div>
 </header>
 
-<!-- HERO SECTION -->
+<!-- HERO -->
 <section class="hero">
-  <div class="hero-text">
-    <h1>Hi, I’m <span>Subhashree.</span></h1>
-    <h2>I build reliable backends & study what breaks them.</h2>
-    <p>3rd-year CSE student focused on backend systems, security research, and problem solving.</p>
+  <div class="hero-left">
+    <h1>
+      Hi, I’m <span>Subhashree.</span><br>
+      I build reliable backends & study what breaks them.
+    </h1>
 
-    <div class="buttons">
-      <a href="#projects" class="btn">View Projects</a>
-      <a href="#" class="btn outline">Resume</a>
-    </div>
+    <p>
+      Third-year Computer Science student with strong foundation in DSA and system design.
+      Interested in backend systems, security research, and scalable solutions.
+    </p>
 
-    <!-- HERO SOCIAL ICONS -->
-    <div class="hero-icons">
-      <a href="https://www.linkedin.com/in/subhashree-ns/" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png">
-      </a>
-      <a href="https://github.com/Subhashree3008" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
-      </a>
-      <a href="hhttps://leetcode.com/u/Subhashree_NS/" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png">
-      </a>
-      
-    </div>
+    <button class="btn">View Projects</button>
   </div>
 
   <div class="hero-card">
-    <h3>SN</h3>
-    <p>Subhashree N S</p>
-    <small>Computer Science Student</small>
+    <div class="circle">SN</div>
+    <h3>Subhashree N S</h3>
+    <p>Computer Science Student</p>
   </div>
 </section>
 
 <!-- ABOUT -->
-<section class="about">
-  <h2>About Me</h2>
-  <p>
-    A student engineer who loves understanding how things work — and how they break.
-    Skilled in backend systems, DSA, and security fundamentals.
+<section class="section">
+  <h2>A student engineer who loves understanding how things work — and how they break.</h2>
+  <p class="subtext">
+    Passionate about backend development, system design, and security.
   </p>
-</section>
 
-<!-- EDUCATION -->
-<section class="education">
-  <h2>Learning Path</h2>
-  <div class="card">
-    <p><b>B.Tech CSE</b> – SRM IST</p>
-    <span>CGPA: 9.85 | 2027</span>
-  </div>
-  <div class="card">
-    <p><b>Higher Secondary</b></p>
-    <span>91.2%</span>
+  <div class="grid-4">
+    <div class="card">Problem Solver</div>
+    <div class="card">Backend First</div>
+    <div class="card">Security Curious</div>
+    <div class="card">Systems Thinker</div>
   </div>
 </section>
 
 <!-- EXPERIENCE -->
-<section class="experience">
-  <h2>Where I’ve worked</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Web Dev Intern</h3>
+<section class="section">
+  <h2>Where I’ve worked.</h2>
+
+  <div class="grid-2">
+    <div class="card big">
+      <h3>Intern · Web & App Development</h3>
       <p>Imaginet Ventures</p>
-      <small>Built backend logistics system</small>
+      <ul>
+        <li>Built logistics backend system</li>
+        <li>Designed database workflows</li>
+        <li>Worked on API integrations</li>
+      </ul>
     </div>
 
-    <div class="card">
-      <h3>Cyber Security Training</h3>
+    <div class="card big">
+      <h3>Cyber Security Intern</h3>
       <p>NSIC</p>
-      <small>Security fundamentals</small>
-    </div>
-  </div>
-</section>
-
-<!-- PROJECTS -->
-<section id="projects" class="projects">
-  <h2>Selected Work</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Crop Recommendation System</h3>
-      <p>AI-based backend system with APIs</p>
-    </div>
-
-    <div class="card">
-      <h3>Placement Management System</h3>
-      <p>Role-based backend platform</p>
+      <ul>
+        <li>Learned OWASP & security basics</li>
+        <li>Performed vulnerability testing</li>
+      </ul>
     </div>
   </div>
 </section>
 
 <!-- SKILLS -->
-<section class="skills">
-  <h2>Tools of the Trade</h2>
+<section class="section">
+  <h2>Tools of the trade.</h2>
 
-  <div class="skill">
-    <p>DSA</p>
-    <div class="bar"><div style="width:90%"></div></div>
-  </div>
+  <div class="grid-2">
 
-  <div class="skill">
-    <p>Python</p>
-    <div class="bar"><div style="width:80%"></div></div>
-  </div>
+    <div class="skill-box">
+      <h3>Core CS</h3>
 
-  <div class="skill">
-    <p>Backend Development</p>
-    <div class="bar"><div style="width:75%"></div></div>
-  </div>
+      <div class="skill">
+        <span>DSA</span>
+        <span>Advanced</span>
+      </div>
+      <div class="bar"><div style="width:90%"></div></div>
 
-  <div class="skill">
-    <p>Security Basics</p>
-    <div class="bar"><div style="width:60%"></div></div>
-  </div>
-</section>
+      <div class="skill">
+        <span>OOP</span>
+        <span>Intermediate</span>
+      </div>
+      <div class="bar"><div style="width:70%"></div></div>
 
-<!-- ACHIEVEMENTS -->
-<section class="achievements">
-  <h2>Milestones that matter</h2>
-  <div class="grid">
-    <div class="card">Top 25 - XYNTRA Hackathon</div>
-    <div class="card">Top 50 - SIH</div>
-    <div class="card">Filed Patent</div>
-    <div class="card">Research Paper Presented</div>
+    </div>
+
+    <div class="skill-box">
+      <h3>Languages</h3>
+
+      <div class="skill">
+        <span>Python</span>
+        <span>Intermediate</span>
+      </div>
+      <div class="bar"><div style="width:75%"></div></div>
+
+      <div class="skill">
+        <span>JavaScript</span>
+        <span>Intermediate</span>
+      </div>
+      <div class="bar"><div style="width:70%"></div></div>
+
+    </div>
+
   </div>
 </section>
 
 <!-- CONTACT -->
-<section class="contact">
-  <h2>Let’s build something together</h2>
-
+<section class="section contact">
+  <h2>Let’s build something together.</h2>
   <p>Email: subhashreens2005@gmail.com</p>
-  <p>Phone: 9884743670</p>
 </section>
 
 </body>
